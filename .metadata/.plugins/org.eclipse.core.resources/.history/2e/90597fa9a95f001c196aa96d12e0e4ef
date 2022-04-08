@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class TreeSetEX {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          ArrayList ts= new ArrayList();
+          ts.add(100);
+          ts.add(50);
+          ts.add(150);
+          ts.add(25);
+          ts.add(75);
+          ts.add(125);
+          ts.add(175);
+                 ListIterator itr=  ts.listIterator(ts.size());
+                 while(itr.hasPrevious()==true){
+                	 System.out.println(itr.previous());
+                 }
+         /*System.out.println(ts);
+          System.out.println(ts.headSet(125));
+          System.out.println(ts.tailSet(125));
+          System.out.println(ts.ceiling(125));
+          System.out.println(ts.floor(125));
+          System.out.println(ts.higher(125));
+          System.out.println(ts.lower(125));*/
+	}
+
+}

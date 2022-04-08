@@ -1,0 +1,10 @@
+#Tomcat publish data
+#Sun Feb 27 17:59:54 IST 2022
+org.eclipse.jst.jee.server\:com.easycartJsp=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\wtpwebapps\\com.easycartJsp
+org.eclipse.jst.jee.server\:com.easycart=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\wtpwebapps\\com.easycart
+org.eclipse.jst.jee.server\:ServletCommunication=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\wtpwebapps\\ServletCommunication
+org.eclipse.jst.jee.server\:com.NewDemo=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\wtpwebapps\\com.NewDemo
+org.eclipse.jst.jee.server\:MVCDemo=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\wtpwebapps\\MVCDemo
+org.eclipse.jst.jee.server\:com.LoginPage=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\wtpwebapps\\com.LoginPage
+org.eclipse.jst.jee.server\:com.ServletContext=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\wtpwebapps\\com.ServletContext
+org.eclipse.jst.jee.server\:com.demo=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5\\wtpwebapps\\com.demo

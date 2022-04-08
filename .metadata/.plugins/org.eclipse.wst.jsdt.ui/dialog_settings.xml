@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="546" key="clean_up_save_particpant_modify_dialog.preferred_x"/>
+	<item value="109" key="clean_up_save_particpant_modify_dialog.preferred_y"/>
+	<item value="907" key="clean_up_save_particpant_modify_dialog.preferred_width"/>
+	<item value="509" key="clean_up_save_particpant_modify_dialog.preferred_height"/>
+	<item value="1" key="clean_up_save_particpant_modify_dialog.last_focus"/>
+	<item value="-1" key="org.eclipse.wst.jsdt.uiformatter_page.modify_dialog_tab_page.last_focus_index"/>
+	<section name="completion_proposal_size">
+	</section>
+</section>

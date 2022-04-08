@@ -1,0 +1,21 @@
+import java.util.LinkedList;
+
+public class LinkedaListDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   LinkedList ll= new LinkedList();
+   ll.add(100);
+   ll.add(200);
+   ll.add(300);
+   ll.add(400);
+   ll.addFirst(999);
+   ll.addLast(9999);
+   System.out.println(ll);
+   System.out.println(ll.get(4));
+   System.out.println(ll.getFirst());
+   System.out.println(ll.peek());
+   
+	}
+
+}

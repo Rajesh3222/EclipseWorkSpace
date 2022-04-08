@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd">
+ <!-- <?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd"> -->
+ 
+ <!-- Setter injection -->
+<!--  <bean class="com.learn.com.learn.springs.Laptop" name="lappy">
+ <property name="model">
+ <value>Precision</value>
+ </property>
+ <property name="brand">
+ <value>Dell</value>
+ </property>
+<property name="os">
+<value>Windows</value>
+</property>
+ </bean> -->
+ <!-- constructor injection -->
+<!--  <bean class="com.learn.com.learn.springs.Laptop" name="lappy">
+   <constructor-arg>
+   <value>Precision 5540</value>
+   </constructor-arg>
+   <constructor-arg>
+     <value>Dell</value>
+   </constructor-arg>
+ <constructor-arg>
+ <value>Windows</value>
+ </constructor-arg>
+ </bean> -->
+ <!-- <bean class="com.learn.com.learn.springs.Laptop" name="lappy">
+  <constructor-arg value="Precison 5540" />
+   <constructor-arg value="Dell" />
+    <constructor-arg value="Winodows" />
+    <constructor-arg ref="mb2"></constructor-arg>
+     </bean>
+     <bean class="com.learn.com.learn.springs.MotherBoard" name="mb1">
+     <constructor-arg value="1111"></constructor-arg>
+     <constructor-arg value="Samsung"></constructor-arg>
+     </bean>
+      <bean class="com.learn.com.learn.springs.MotherBoard" name="mb2">
+     <constructor-arg value="2222"></constructor-arg>
+     <constructor-arg value="Hitachi"></constructor-arg>
+     </bean>
+      <bean class="com.learn.com.learn.springs.MotherBoard" name="mb3">
+     <constructor-arg value="3333"></constructor-arg>
+     <constructor-arg value="intel"></constructor-arg>
+     </bean> -->
+     <!--  Auto wiring byName-->
+  <!--    <bean class="com.learn.com.learn.springs.Laptop"  name="lappy" autowire="byName">
+     </bean>
+     <bean class="com.learn.com.learn.springs.MotherBoard" name="mb">
+     <constructor-arg value="1111"></constructor-arg>
+     <constructor-arg value="intel"></constructor-arg>
+     
+     </bean> -->
+   <!--   AutoWiring bytype -->
+   <!--   <bean class="com.learn.com.learn.springs.Laptop"  name="lappy" autowire="byType">
+     </bean>
+     <bean class="com.learn.com.learn.springs.MotherBoard" >
+     <constructor-arg value="1111"></constructor-arg>
+     <constructor-arg value="intel"></constructor-arg></bean> -->
+     
+     <!-- Annotation - config -->
+    <context:annotation-config/>
+
+    
+     <bean class="com.learn.com.learn.springs.Laptop"  name="lappy" >
+     </bean>
+     
+       <bean class="com.learn.com.learn.springs.MotherBoard" >
+     <constructor-arg value="1111"></constructor-arg>
+     <constructor-arg value="intel"></constructor-arg></bean>
+     
+   
+ </beans>

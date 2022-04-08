@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+ <!-- <bean class="com.learn.com.spring.demo.Fresher" name="fr">
+ <property  name="uid">
+ <value>1111</value>
+ </property>
+ <property  name="name">
+ <value>Sai</value>
+ </property>
+ <property  name="yop">
+ <value>2014</value>
+ </property>
+ </bean>
+ </beans> -->
+ <!-- <bean class="com.learn.com.spring.demo.Fresher1" name="fr">
+ <property name="name">
+ <value>Sai</value>
+ </property>
+ <property name="bikes">
+ <list>
+ <value>Pulsar</value>
+ <value>Yamaha</value>
+ <value>Royal Enfield</value>
+ </list>
+ </property>
+ <property name="contacts">
+ <set>
+ <value>1111111</value>
+ <value>22222</value>
+ </set>
+ </property>
+ <property name="courses">
+ <map>
+ <entry key="DCP1" value="Java fullstack"></entry>
+ <entry key="DCP2" value="Java testing fullstack"></entry>
+ </map>
+ </property>
+ 
+ </bean> -->
+ <bean class="com.learn.com.spring.demo.WiproOffer"  name="wip">
+ <constructor-arg  value="Developer"></constructor-arg>
+ <constructor-arg value="75000"></constructor-arg>
+ </bean>
+ <bean class="com.learn.com.spring.demo.Fresher1" name="fr">
+ <constructor-arg value="KODGH027"></constructor-arg>
+ <constructor-arg value="Sai"></constructor-arg>
+ <constructor-arg ref="wip"></constructor-arg>
+ </bean>
+ </beans>
